@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+    font-family:'DMC5Font';
+    font-size:4rem;
+    color:rgb(107, 6, 6);
+    letter-spacing:20px;
+}
+img{
+    width:500px;
+    opacity:.7;
+}
+div{
+    display:inline-block;
+    margin-left:10%;
+}
+#footer{
+    font-family:'Tourney';
+    margin-top:100px;
+    text-align:right;
+    font-size:25pt;
+    color:rgb(58, 9, 9);
+    font-weight: bolder;
+}
+body{
+    background-image:url('../Arcane.png');
+    background-size:cover;
+}
+@media(min-width:360px) and (max-width:649px){
+    img{
+        width:250px;
+    }
+    p{
+        font-size:10pt;
+        font-weight:bold;
+    }
+    #footer{
+        margin-top:50px;
+    }
+}
+@media(min-width:650px) and (max-width:849px){
+    div{
+        margin-left:5%;
+    }
+    img{
+        width:300px;
+    }
+    p{
+        font: size 12px;
+    }
+}
+@media(min-width:850px) and (max-width:1049px){
+    div{
+        margin-left:10%;
+    }
+    img{
+        width:400px;
+    }
+    p{
+        font-size:12px;
+    }
+    #footer{
+        margin-top:130px;
+    }
+}
+@media(min-width:1050px) and (max-width:1249px){
+    img{
+        width:500px;
+    }
+    p{
+        font-size:12pt;
+    }
+}

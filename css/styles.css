@@ -1,0 +1,45 @@
+#search{
+    font-size:1rem;
+    border-radius:50px;
+    border:1px solid black;
+    background-color:rgb(255, 255, 255);
+    margin-left:1000px;
+}
+a{
+    display:inline-block;
+    padding:10px;
+    font-size:1.5rem;
+    font-weight:bold;
+    margin:10px;
+    border-radius:50px;
+    font-family:SF fedora;
+    text-decoration:blink;
+    text-shadow: 10px 10px 10px black;
+
+}
+nav{
+    background-color:maroon;
+    width: 100%;
+    border-radius:3px;
+}
+body{
+    background-image:url(./samurai.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom(center);
+}
+a:hover{
+    background-color:rgba(49, 2, 2, 0.894);
+    color:brown;
+}
+img{
+    width:20px;
+}
+h2, h3, h4, h5{
+text-align: right;
+text-decoration: solid;
+text-decoration-color: crimson;
+font-size: x-large;
+margin-top: 1rem;
+margin-right: 2rem;
+}
